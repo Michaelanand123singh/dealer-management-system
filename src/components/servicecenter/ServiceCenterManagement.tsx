@@ -67,7 +67,7 @@ export default function ServiceCenterManagement({ onNavigate }: ServiceCenterMan
         estimatedCompletion: new Date(Date.now() + checkInData.estimatedDuration * 60 * 60 * 1000),
         createdBy: 'current-user-id',
         partsTotal: 0,
-        laborTotal: checkInData.estimatedDuration * 75, // $75/hour
+        laborTotal: checkInData.estimatedDuration * 75, // ₹75/hour
         taxRate: 0.08,
         taxAmount: 0,
         totalAmount: 0,
